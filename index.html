@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="
+        h-screen 
+        bg-gray-100 
+        grid place-items-center
+    ">
+    <div class="
+        bg-white 
+        p-6 
+        shadow-lg 
+        rounded-lg
+    ">
+        <form
+            action="https://docs.google.com/forms/d/e/1FAIpQLSdSni1FKJUZbxf1r1U9rZhMmqQLJ7rog3tSW8B4Nx5OLurs4g/formResponse"
+            class="
+                flex 
+                flex-col 
+                gap-3 
+                w-full
+        ">
+            <label class="sr-only" for="formName">Digite seu nome</label>
+
+            <input type="text" name="entry.1266802942" placeholder="Digite seu nome" id="formName" class="
+                    border border-2 border-gray-300
+                    rounded-lg
+                    px-3.5
+                    py-2
+                    focus:outline-none
+                    focus:border-pink-500
+            ">
+
+            <button type="submit" class="
+                    bg-pink-500
+                    text-white
+                    p-2.5
+                    rounded-lg
+                    w-full
+                    hover:bg-pink-600
+                    focus:outline-none
+                    focus:ring-2 focus:ring-offset-2 focus:ring-pink-600 
+                ">
+                Enviar
+            </button>
+        </form>
+    </div>
+
+</body>
+
+</html>
